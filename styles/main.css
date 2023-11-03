@@ -358,6 +358,9 @@
     .main__data-left {
         flex-basis: 25rem;
     }
+    .sign-up__text-line {
+        display: none;
+    }
 }
 
 
