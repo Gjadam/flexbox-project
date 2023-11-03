@@ -1,0 +1,373 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+.main__caption {
+    text-align: center;
+
+}
+.main__link {
+    text-decoration: none;
+    color: #722ED1;
+    border: 1px solid #F9F0FF;
+    background-color: #F9F0FF;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+}
+.main__link:hover {
+    color: #fff;
+    background-color: #722ED1;
+}
+.fa {
+    margin-right: 0.3rem;
+}
+.main__title {
+    font-family: "TTNorms Medium";
+    color: #160637;
+    font-size: 36px;
+}
+.main-text {
+    color: #8989A2;
+    line-height: 1.5rem;
+    font-family: "TTNorms Light";
+}
+.main__comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.main__comment {
+    padding: 1rem 4rem;
+}
+.main__comment-img-1 {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid #F6FFED;
+    background-color: #F6FFED;
+}
+.main__comment-img-2 {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid #FFF1F0;
+    background-color: #FFF1F0;
+}
+.main__comment-img-3 {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid #E6F7FF;
+    background-color: #E6F7FF;
+}
+.main__comment-title {
+    color: #160637;
+    font-family: "TTNorms Medium";
+}
+.main__comment-text {
+    line-height: 1.5rem;
+    color: #8989A2;
+    font-family: "TTNorms Light";
+}
+
+/* main lunch */
+
+.main-lunch {
+    display: flex;
+    margin-top: 16rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-lunch__left {
+    z-index: 0;
+    position: relative;
+}
+.main-lunch__logos {
+    z-index: 1;
+    position: absolute;
+    right: -9px;
+    bottom: -16px;
+}
+
+.main-lunch__right {
+
+}
+.main-lunch__link {
+    border: 1px solid #F9F0FF;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: #F9F0FF;
+    color: #722ED1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.main-lunch__link:hover {
+    background-color: #722ED1;
+    color: #fff;
+}
+.fa-brands {
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+.main-lunch__title {
+    color: #160637;
+    margin: 3rem 0 1rem 0;
+    font-family: "TTNorms Medium";
+}
+.main-lunch__text {
+    color: #8989A2;
+    line-height: 1.5rem;
+    font-family: "TTNorms Light";
+}
+
+/* Main data */
+
+.main__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+.main__data-left {
+
+}
+.main__data-link {
+    border: 1px solid #F9F0FF;
+    border-radius: 2rem;
+    background-color: #F9F0FF;
+    padding: 1rem 1.5rem;
+    color: #722ED1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.main__data-link:hover {
+    color: #fff;
+    background-color: #722ED1;
+}
+.main__data-title {
+    font-family: "TTNorms Medium";
+    color: #160637;
+    margin: 3rem 0 1rem 0;
+}
+.main__data-text {
+    color: #8989A2;
+    font-family: "TTNorms Light";
+    line-height: 1.5rem;
+}
+.main__data-right {
+
+}
+.main__data-img {
+
+}
+
+/* Main Brand */
+
+.main-brand {
+    background-image: url('/image/main-picture/background-main.png');
+    background-size: cover;
+    height: 71rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-brand__wrapper {
+
+}
+.main-brand__logos-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #DEC9FA;
+    margin: 4rem 0;
+}
+.main-brand__words {
+    font-size: 21px;
+    color: #160637;
+    font-family: 'TTNorms Medium';
+}
+.main-brand__img {
+    display: block;
+    margin: 1rem auto;
+}
+.main-brand__title {
+
+}
+.main-brand__logos {
+    margin-top: 4rem;
+}
+.main-brand__logo {
+    padding: 0 4rem;
+}
+
+/* Sign Up */
+
+.sign-up {
+
+}
+.sign-up__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sign-up__left {
+    text-align: center;
+}
+.sign-up__left-title {
+    color: #160637;
+    font-family: "TTNorms Medium";
+}
+.sign-up__left-text {
+    margin: 0 2rem;
+    color: #8989A2;
+}
+.sign-up__left-text-line {
+
+}
+.sign-up__text-line {
+
+}
+.sign-up___left-logos {
+    padding: 3rem 0;
+}
+.sign-up__left-logo {
+
+}
+.sign-up__left-img {
+
+}
+.sign-up__right {
+    box-shadow: 0 1.5rem 0.5rem 1rem #F9F0FF;
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+}
+.sign-up__right-wrapper {
+    text-align: center;
+    border: 1px solid #F9F0FF;
+    padding: 1rem 4rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.sign-up__right-text {
+    color: #160637;
+}
+.sign-up__right-email {
+    display: block;
+    margin: 0.8rem auto;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #8989A2;
+    border-radius: 0.3rem;
+    min-width: 17rem;
+}
+.sign-up__right-password {
+    display: block;
+    margin: 0.8rem auto;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #8989A2;
+    border-radius: 0.3rem;
+    min-width: 17rem;
+}
+.sign-up__right-re-type-password {
+    display: block;
+    margin: 0.8rem auto;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.4rem;
+    outline: none;
+    border: 1px solid #8989A2;
+    border-radius: 0.3rem;
+    min-width: 17rem;
+}
+.sign-up__right-btn {
+    background-color: #722ED1;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #722ED1;
+    padding: 0.5rem 4.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+    flex-wrap: wrap;
+}
+.sign-up__right-btn:hover {
+    color: #722ED1;
+    background-color: #fff;
+}
+.sign-up__right-OR-text {
+    margin-top: 2rem;
+}
+.sign-up__right-google-btn {
+    display: block;
+    margin-bottom: 3rem;
+}
+.sign-up__right-footer-text {
+    border-top: 1px solid #8989A2;
+    padding: 1.5rem 0.2rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .main-lunch__left {
+        order: 1;
+        margin-top: 10rem;
+    }
+    .sign-up__wrapper {
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .main__data-right {
+        margin: 5rem 0rem 0px -7rem;
+    }
+    .main-brand__wrapper {
+        margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .main__data-img {
+        display: none;
+    }
+    .main__data-left {
+        flex-basis: 25rem;
+    }
+}
+
+
+@keyframes Top {
+    0% {
+        opacity: 0.5;
+        transform: translateY(5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,120 @@
+
+.footer {
+    margin-top: 15rem;
+    background-color: #FBFCFF;
+}
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__Description {
+    flex-basis: 19%;
+}
+.footer__Description-logo {
+
+}
+.footer__Description-text {
+    font-size: 12px;
+    line-height: 1rem;
+}
+.footer__Description-social-logo-wrapper {
+
+}
+.footer__Description-social-logo {
+    padding: 0 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.footer__Description-social-logo:hover {
+    transform: translateY(-0.4rem);
+}
+.footer-menu {
+    flex-basis: 81%;
+}
+.footer-menu__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.footer-menu__item {
+    list-style-type: none;
+    padding: 0 1rem;
+}
+.footer-menu__item-head {
+    color: #160637;
+}
+.footer-menu__item-wrapper {
+    padding: 0;
+}
+.footer-menu__item-child {
+    list-style-type: none;
+    padding: 0.4rem;
+    color: #160637;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.footer-menu__item-child:hover {
+    color: #16063786;
+}
+.footer-menu__item-btn-wrapper {
+    position: relative;
+}
+.footer-menu__item-input {
+    border: none;
+    padding: 1rem;
+    outline: none;
+    box-shadow: 0 0.5rem 0.5rem #ccc;
+    width: 100%;
+}
+.footer-menu__item-btn {
+    position: absolute;
+    right: 0;
+    padding: 0.8rem;
+    transition: all 0.3s;
+}
+.footer-menu__item-btn:hover {
+    transform: translateX(0.3rem);
+}
+
+.footer-text {
+    text-align: center;
+}
+
+
+
+
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .footer__wrapper {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .footer__Description {
+        margin-left: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
